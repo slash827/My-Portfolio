@@ -1,0 +1,1 @@
+[{"model": "projects.degree", "pk": 2, "fields": {"title": "Master Degree", "description": "Studying Computer Science with thesis in AI at Bar-Ilan University.", "courses_names": "[\"Image Processing\", \"Machine Learning\", \"Tabular Data Science\", \"Data Science Workshop\"]"}}]

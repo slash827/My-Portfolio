@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+    <h1>Academic Background</h1>
+    <div class="row">
+        {% for degree in academic %}
+                <div class="card mb-2 tech-cards">
+                    <div class="card-body">
+                        <h3 class="card-title tech_name">{{ degree.title }}</h5>
+                        <h5>{{ degree.description }}</h5>
+                        <p class="card-text">
+                            <ul>
+                                {% for course_name in degree.courses_names %}
+                                    <li>{{ course_name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+        {% endfor %}
+    </div>
+{% endblock %}

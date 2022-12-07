@@ -1,0 +1,10 @@
+    Add the following to the DATABASES variable in settings.py
+    
+    'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'portfolio_db',
+       'USER': 'postgres',
+       'PASSWORD': 'ping123int',
+       'HOST': '127.0.0.1',
+       'PORT': '5432',
+   }

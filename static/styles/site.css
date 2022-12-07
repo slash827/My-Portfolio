@@ -1,0 +1,17 @@
+.tech-cards {
+    width: 100%;
+    float: left;
+}
+
+.tech_name {
+    color: #24a0ff;
+}
+
+#certificate_institute {
+    color: #3430ff;
+}
+
+body {
+    /* background-color: #9c8d8d; */
+    background-image: url('../img/background-photo.jpg')"
+}

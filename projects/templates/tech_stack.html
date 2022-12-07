@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+    <h1>Technology Stack</h1>
+    <div class="row">
+        {% for tech_stack in tech_stacks %}
+                <div class="card mb-2 tech-cards">
+                    <div class="card-body">
+                        <h5 class="card-title tech_name">{{ tech_stack.name }}</h5>
+                        <p class="card-text">
+                            {{ tech_stack.description }} <br>
+                            {% if tech_stack.extra %}
+                                {{ tech_stack.extra }}
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+        {% endfor %}
+    </div>
+{% endblock %}

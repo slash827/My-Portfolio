@@ -1,0 +1,1 @@
+[{"model": "projects.techstack", "pk": 1, "fields": {"name": "Python", "description": "Advanced Python including OOP, Meta Programming, Network and Socket programming and Excepion Handelling.", "extra": "Libraries like: Pandas, NumPy, Matplotlib, Sklearn, TensorFlow, Django."}}]

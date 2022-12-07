@@ -1,0 +1,2 @@
+run in terminal:
+python manage.py runscript <script_name> --script-args <arg1> <arg2> ... <argn>
